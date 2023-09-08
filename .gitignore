@@ -15,3 +15,10 @@ temp
 
 # Visual Studio Code
 /.vscode
+
+# Bazel
+/bazel-*
+/external
+/.cache
+/compile_commands.json
+user.bazelrc
