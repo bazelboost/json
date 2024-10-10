@@ -4,6 +4,9 @@ package(default_visibility = ["//visibility:public"])
 
 cc_library(
     name = "boost.json",
+    srcs = [
+        "src/src.cpp",
+    ],
     hdrs = glob([
         "include/**/*.hpp",
         "include/**/*.ipp",
